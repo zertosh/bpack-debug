@@ -1,0 +1,29 @@
+{
+  "name": "bpack-debug",
+  "version": "1.0.0",
+  "description": "Browserify helper to save the export value of a module for easier debugging",
+  "keywords": [
+    "browserify",
+    "debug"
+  ],
+  "homepage": "https://github.com/zertosh/bpack-debug",
+  "license": "MIT",
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "files": [
+    "README.md",
+    "docblock.js",
+    "bpack-debug.js"
+  ],
+  "main": "bpack-debug.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zertosh/bpack-debug.git"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "tap": "^1.1.0"
+  }
+}
