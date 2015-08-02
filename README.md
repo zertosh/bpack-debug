@@ -4,7 +4,7 @@ A [browserify](https://github.com/substack/node-browserify) helper to save the e
 
 It doesn't require changing your build - it works at runtime by simply requiring bpack-debug and running it. It scans the raw source of modules in the module cache for the _alias_ name to export as a docblock directive.
 
-[![Build Status](https://travis-ci.org/zertosh/bpack-debug.svg)](https://travis-ci.org/zertosh/bpack-debug)
+[![Build Status](https://travis-ci.org/zertosh/bpack-debug.svg?branch=master&style=flat)](https://travis-ci.org/zertosh/bpack-debug)
 
 ## example
 
